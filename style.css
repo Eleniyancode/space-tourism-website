@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(./assets/home/background-home-mobile.jpg);
+    /* background-position: ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+/* Header style */
+header {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    margin-bottom: 3rem;
+}
+
+.nav-bar {
+    background: url(./assest/global-navigation-svgrepo-com.svg);
+    background-position:center;
+    background-size: cover;
+    width: 24px;
+    height: 21px;
+    cursor: pointer;
+    /* border: 1px solid white; */
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+nav {
+    position: absolute;
+    margin-top: 4rem;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    /* background: #0B0D17; */
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    opacity: 0.9;
+}
+
+nav ul {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+nav ul li {
+    list-style: none;
+    /* border: 1px solid white; */
+    padding: 1rem;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #D0D6F9;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li span {
+    display: inline-block;
+    font-weight: 900;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+/* main style */
+main {
+    padding: 24px;
+    color: #D0D6F9;
+}
+
+.text-section {
+    height: 300px;
+    margin-top: 3rem;
+}
+.text-heading-p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.text-heading-title {
+    font-size: 5rem;
+    padding: 2.4rem;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.subtext-p {
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    max-height: 400px;
+    border: 1px solid white;
+    padding: 2.4rem;
+}
+
+.explore-btn {
+    width: 144px;
+    height: 144px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+
+}
