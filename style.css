@@ -29,7 +29,7 @@ header {
 }
 
 .nav-bar {
-    background: url(./assest/global-navigation-svgrepo-com.svg);
+    background: url(./assest/icons8-menu-30.png);
     background-position:center;
     background-size: cover;
     width: 24px;
@@ -47,12 +47,13 @@ nav {
     position: absolute;
     margin-top: 4rem;
     height: 100%;
-    width: 50%;
+    width: 65%;
     right: 0;
     /* background: #0B0D17; */
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0,0, 0.25);
     backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(80px);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.7);
     opacity: 0.9;
 }
 
@@ -82,6 +83,10 @@ nav ul li span {
     display: inline-block;
     font-weight: 900;
     color: white;
+}
+
+.nav-list-home {
+    border-right: 1px solid white
 }
 
 .hidden {
