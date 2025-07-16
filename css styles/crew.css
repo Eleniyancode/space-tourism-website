@@ -22,10 +22,13 @@ header {
 .nav-list-home {
     border: unset;
 }
+.nav-list-technology {
+  border-right: unset;
+}
 
-/* .nav-list-crew {
+ .nav-list-crew {
     border-right: 2px solid white;
-} */
+} 
 
 .text-heading-div {
     margin-block: 2rem;
