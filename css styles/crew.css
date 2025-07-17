@@ -148,3 +148,104 @@ header {
 .crew__header h1 {
   font-size: 2.5rem;
 }
+
+@media (min-width: 500px) {
+    html {
+      font-size: 62.5%;
+    }
+    
+    .slider {
+      height: 34rem;
+    }
+
+    .nav-list-crew {
+    border-bottom: 2px solid white;
+    border-right: none;
+    }
+
+    .text-heading-p {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+
+    .crew__header p {
+      font-size: 1.5rem;
+    }
+
+    .crew__header h1 {
+      font-size: 3rem;
+    }
+
+    .crew__description {
+      width: 70%;
+      margin: 0 auto;
+    }
+    
+    .crew__description p {
+      font-size: 1.8rem;
+
+    }
+
+    .slide-image img {
+      width:  500px;
+      height: 500px;
+    }
+}
+
+@media (min-width: 900px) {
+      main {
+        /* border: 2px solid white; */
+        margin: unset;
+        flex-direction: column;
+        align-items: unset;
+        gap: 8rem;
+    }
+
+    .text-heading-div {
+      height: 4rem;
+      color: white;
+      padding-left: 4rem;
+    }
+    .text-heading-p {
+      font-size: 1.5rem;
+    }
+
+
+    .text-section {
+      display: flex;
+      width: 100%;
+      /* border: 2px solid white; */
+      align-items: flex-end;
+    }
+
+    .slider {
+      height: 40rem;
+      width: 50%;
+    }
+    
+    .slide {
+      /* border: 2px solid white; */
+      align-items: center;
+      display: flex;
+      /* align-items: flex-end; */
+      justify-content: center;
+      padding-left: 2rem;
+    }
+    
+    .crew {
+      text-align: left;
+    }
+
+    .crew__description {
+      margin: unset;
+    }
+
+    .crew__description p {
+      line-height: 1.4;
+    }
+
+    /* .dots {
+      bottom: -2%;
+    } */
+
+}

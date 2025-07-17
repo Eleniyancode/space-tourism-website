@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 00px) {
+    
 html {
   font-size: 62.5%;
 }
@@ -100,6 +102,8 @@ nav ul li span {
 main {
   padding: 24px;
   color: #d0d6f9;
+  /* border: 2px solid white; */
+  /* height: 100%; */
 }
 
 .text-section {
@@ -144,4 +148,130 @@ main {
   background-color: white;
   border-radius: 50%;
   border: none;
+}
+
+.explore-btn a {
+    text-decoration: none;
+    color: black;
+}
+}
+
+@media (min-width: 500px) {
+        html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        background: url(./assets/home/background-home-tablet.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        /* height: 100vh; */
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .hidden {
+        display: flex;
+    }
+
+    nav {
+        height: 8rem;
+        margin-top: unset;
+        top: 0;
+        width: 75%;
+        /* left: 0; */
+    }
+    nav ul{
+        flex-direction: row;
+        height: 8rem;
+    }
+
+    .nav-list-home {
+        border-right: none;
+         border-bottom: 2px solid white;
+    }
+
+    .text-section {
+        /* border: 2px solid white; */
+        height: unset;
+        margin-top: 6rem;
+    }
+
+
+    .text-heading-p {
+        font-size: 1.5rem;
+        word-spacing: 5px;
+    }
+    .text-heading-title {
+        font-size: 7rem;
+        letter-spacing: 5px;
+    }
+
+    .subtext-p {
+        font-size: 1.5rem;
+        /* border: 2px solid white; */
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cta-section {
+        height: 20rem;
+        /* border: 2px solid white; */
+        margin-top: 8rem;
+    }
+
+    .explore-btn {
+        width: 272px;
+        height: 272px;
+        /* background-color: white; */
+        border-radius: 50%;
+        border: none;
+        font-size: 2rem;
+}
+}
+
+@media (min-width: 900px) {
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            background-image: url(./assets/home/background-home-desktop.jpg);
+        }
+
+        nav {
+            width: 55%;
+        }
+
+        main {
+            display: flex;
+            align-items: flex-end;
+            gap: 6rem;
+            text-align: left;
+            /* border: 2px solid white; */
+            margin-top: 15rem;
+            /* width: 60%; */
+        }
+
+
+        .text-section, .text-heading-p, .text-heading-title, .subtext-p {
+            text-align: left;
+            padding: unset;
+            /* border: 2px solid white; */
+            margin: unset;
+            padding-left: 2rem;
+        }
+
+        .text-section {
+            width: 55%;
+        }
+
+        .text-heading-title {
+            margin-block: 2rem;
+        }
+        .subtext-p {
+            line-height: 1.4;
+        }
 }

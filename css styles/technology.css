@@ -90,7 +90,7 @@ header {
     font-size: 1.4rem;
     line-height: 2;
     padding: 1rem;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 .locations__distance, .locations__travel-time {
@@ -119,4 +119,90 @@ header {
 
 .image--active {
     display: block;
+}
+
+@media (min-width: 500px) {
+    html {
+        font-size: 62.5%;
+    }
+    .text-heading-p {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-bottom: 5rem;
+    }
+
+
+    .text-heading-image img {
+        height: 357px;
+        /* width: 90%; */
+    }
+
+    .locations__header-p {
+        font-size: 1.5rem;
+        margin-block: 1rem;
+    }
+
+    .locations__header {
+        margin-block: 2rem;
+        font-size: 2.8rem;       
+    }
+
+    .locations__description {
+        font-size: 1.8rem;
+    }
+
+    .nav-list-technology {
+    border-bottom: 2px solid white;
+    border-right: none;
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        display: flex;
+        flex-wrap: row;
+        /* border: 2px solid white; */
+        margin: unset;
+    }
+
+    .text-section {
+        display: flex;
+        /* border: 2px solid white; */
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+
+    .text-heading-image {
+        width: 50%;
+    }
+
+    .locations__tab-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .locations {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .locations__header-p {
+        text-align: left;
+        padding-left:2rem;
+    }
+
+    .locations__header {
+        text-align: left;
+        padding-left: 2rem;
+    }
+
+    .locations__description  {
+        line-height: 1.4;
+        width: 90%;
+        text-align: left;
+    }
 }

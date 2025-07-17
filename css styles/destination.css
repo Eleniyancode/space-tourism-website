@@ -1,3 +1,5 @@
+@media (min-width: 00px) {
+    
 body {
     background-image: url(../assets/destination/background-destination-mobile.jpg);
     /* background-position: ; */
@@ -107,4 +109,115 @@ header {
 
 .image--active {
     display: block;
+}
+}
+
+@media (min-width: 500px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .nav-list-destination {
+    border-right: none;
+    border-bottom: 2px solid white;
+}
+
+    .text-heading-p {
+        font-size: 1.4rem;
+        text-align: left;
+    }
+
+    .text-heading-image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+    }
+
+    .locations__header {
+        font-size: 7rem;
+    }
+
+    .locations__description {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .flex-container {
+        display: flex;
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+        justify-content: space-around;
+        /* border: 2px solid white; */
+        margin-top: 2rem;
+    }
+
+}
+
+@media (min-width: 900px) {
+    main {
+        /* border: 2px solid white; */
+        margin: unset;
+        flex-direction: column;
+        align-items: unset;
+        gap: 8rem;
+    }
+
+    .text-heading-p {
+        text-align: left;
+    }
+
+    .text-heading-div {
+        text-align: left;
+        /* border: 1px solid white; */
+    }
+
+    .text-section {
+        /* border: 2px solid white; */
+        display: flex;
+        width: 80%;
+        margin: unset;
+        margin-inline: auto;
+        text-align: left;
+        gap: 13rem;
+        justify-content: space-between;
+    }
+
+    .locations {
+        text-align: left;
+    }
+
+    .locations__tab-container {
+        justify-content: flex-start;
+    }
+
+    .locations__content {
+        text-align: center;
+    }
+
+    .locations__header {
+        text-align: left;
+    }
+
+    .locations__description {
+        text-align: left;
+        margin-inline: unset;
+    }
+
+    .flex-container {
+        justify-content: flex-start;
+        /* border: 1px solid white; */
+        margin-inline: unset;
+    }
+
+    .locations__distance {
+        text-align: left;
+    }
+
+    .locations__travel-time {
+        text-align: left;
+    }
 }
